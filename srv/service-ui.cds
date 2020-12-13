@@ -1,8 +1,8 @@
-annotate employeeservice.BusinessPartners with {
+annotate CatalogService.BusinessPartners with {
 	BusinessPartner @title:'Business Partner'
 }
 
-annotate employeeservice.BusinessPartners with @(
+annotate CatalogService.BusinessPartners with @(
 
 	UI: {
 		SelectionFields: [ BusinessPartner ],
